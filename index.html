@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bot Status</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <title>Bot Status</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="image.png" type="image/x-icon">
 </head>
+
 <body>
-    <div id="main-container">
-        <h1 id="title">Bot Status</h1>
-        <div id="status-container">
-            <span id="status-indicator" class="status-indicator status-offline"></span>
-            <span id="status" class="status-text">Offline</span>
-        </div>
-        <p id="status-description">Currently not running the bot</p>
-        <hr id="separator">
-        <p id="last-update">Last status change: Oct 4, 2024, 10:07 PM (PST)</p>
+  <img id="logo" src="online.png" alt="Logo">
+  <div id="maincontainer">
+    <h1 id="title">Bot Status</h1>
+    <div id="container">
+      <span id="indicator" class="indicator offline"></span>
+      <span id="text" class="text">Offline</span>
     </div>
+    <p id="description">Currently not running the bot</p>
+    <hr id="separator">
+    <p id="update">Last status change: Oct 4, 2024, 10:07 PM (PST)</p>
+    <!-- <img id="dark" src="darkmode.png" alt="Toggle Dark Mode"> -->
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
